@@ -7,6 +7,15 @@ export default defineConfig({
   base: '/pomodoro-tracker-qoder/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
-  }
+    assetsDir: 'assets',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  server: {
+    port: 5173,
+  },
 })
