@@ -2,10 +2,13 @@
 
 A beautiful, minimalist Pomodoro timer application with Apple-style design, task management, and productivity statistics.
 
+**🌐 [Live Demo](https://mizant.github.io/pomodoro-tracker-qoder/)**
+
 ![Pomodoro Tracker](https://img.shields.io/badge/Status-Production_Ready-brightgreen)
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![Vite](https://img.shields.io/badge/Vite-5.0.8-purple)
 ![Firebase](https://img.shields.io/badge/Firebase-10.x-orange)
+![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue)
 
 ## ✨ Features
 
@@ -44,6 +47,9 @@ A beautiful, minimalist Pomodoro timer application with Apple-style design, task
 - Responsive design for all devices
 
 ## 🚀 Quick Start
+
+### 🌐 Live Demo
+Try the app instantly at: **[mizant.github.io/pomodoro-tracker-qoder](https://mizant.github.io/pomodoro-tracker-qoder/)**
 
 ### Development Mode (No Setup Required)
 1. Clone the repository
@@ -124,6 +130,23 @@ docs/
 - 📱 **Minimize Distractions**: Put your phone in another room
 - ☕ **Take Real Breaks**: Step away from your computer during breaks
 - 📊 **Review Stats**: Use the monthly view to identify productivity patterns
+
+## 🌐 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+- **Live URL**: [mizant.github.io/pomodoro-tracker-qoder](https://mizant.github.io/pomodoro-tracker-qoder/)
+- **Auto-deploy**: Every push to `main` branch triggers deployment
+- **Build Process**: Vite build → GitHub Pages
+
+### Manual Deployment
+```bash
+# Build for production
+npm run build
+
+# The dist/ folder contains the built app ready for deployment
+```
 
 ## 🔥 Firebase Setup
 
